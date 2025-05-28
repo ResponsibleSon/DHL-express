@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DHL WorldWide Express®</title>
+    <link rel="stylesheet" href="DHL-general-styles/DHL-login.css">
+</head>
+
+<body>
+    <header>
+        <section class="HeaderLeft">
+            <div class="Company-logo">
+                <div class="cLogoImg">
+                    <img src="DHL Photos/Order Track.jpg">
+                </div>
+            </div>
+
+            <div class="Company-name-emblem">
+                <p class="cName">DHL WorldWide Express</p>
+                <p class="cEmblem">...Relax, let us bring your order to your door step</p>
+            </div>
+        </section>
+
+        <section class="HeaderRight">
+            <a href="Dhlintworldwide@gmail.com">
+             <div class="smPlatform">
+                <img src="DHL Photos/email.png">
+            </div>
+            </a>
+
+
+        </section>
+    </header>
+    
+    <main>
+        <section class="purposeHeading">
+            <p>Track Your Order</p>
+        </section>
+
+        <section class="Logins">
+            <div class="input-details">
+                <p>Name- </p>
+                <input class="js-user-customer-Name" placeholder="(Optional)Eg. Simon">
+            </div>
+
+            <div class="input-details">
+                <p>Track Code- </p>
+                <input type="password" class="js-password" placeholder="Track ID. 3476.." onkeydown="
+                enterLogin();
+                ">
+
+                <div class="js-wrong wrongOrRight">
+                    <!-- Wrong or right alert -->
+                </div>
+            </div>
+
+            <div class="js-loginPage LoginPage">
+                <button class="js-confirmPassword"  onclick="
+                passwordLogin();">Confirm</button>
+            </div>
+
+            
+            <div class="pForgot">
+                <p>Forgot Password? Please contact <a href="Dhlintworldwide@gmail.com">Admin</a></p>
+            </div>
+
+             
+        </section>
+    </main>
+
+    <script src="DHL.js"></script>
+    
+</body>
+</html>

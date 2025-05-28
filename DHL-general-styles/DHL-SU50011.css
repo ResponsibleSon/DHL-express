@@ -1,0 +1,336 @@
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #FAEDCA;
+    }
+    header{
+        background: linear-gradient(red, gold);
+        /* background: linear-gradient(#FE5D26, #F2C078, #CB0404); */
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 13%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        /* background: linear-gradient(red, gold); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 80%
+    }
+    .heading div{
+        font-style: oblique;
+        box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.5), inset -2px -2px 2px rgba(0, 0, 0, 0.5);
+        padding: 10px;  
+    }
+    /* Nav Styles */
+    nav{
+        position: absolute;
+        top: 18%;
+        left: 5%;
+        right: 5%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+    }
+    .orderIDs{
+        display: flex;
+    }
+    .order-IDs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .orderIdImg{
+        height: 15px;
+        width: 15px;
+        border-radius: 7.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .orderIdImg img{
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+    }
+    .idNo{
+        margin-left: 5px;
+    }
+    
+    .orderArrival-trackID{
+       /* Nothing yet */
+    }
+    .order-Arrival{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .order-TrackID{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .dateOfArrival{
+        background-color: blue;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+    .trackID{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        margin-left: 5px;
+    }
+
+    /* Main Styles */
+    main{
+        position: absolute;
+        top: 50%;
+        display: flex;
+        cursor: pointer;
+    }
+    /* Status one */
+    .orderStatus1{
+      /* nothing needed */
+    }
+    .orderTicking1{
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+    .divProcessing1{
+        /*Switch background-color to grey or green as needed*/
+        background-color: green;  
+        height: 6px;
+        width: 70px;
+        margin-left: -1px;
+    }
+    .divTick1{
+        /*Switch background-color to grey or green as needed*/
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50%;
+        color: white;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+    }
+    .orderStatusImgText1{
+        font-size: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .statusImg1{
+        height: 15px;
+        width: 15px;
+        border-radius: 7.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .statusImg1 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+    }
+    .statusText1{
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Status 2 */
+       .orderStatus2{
+        /* Nothing needed */
+    }
+    .orderTicking2{
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+    .divProcessing2{
+        /*Switch background-color to grey or green as needed*/
+        background-color: gray;
+        height: 6px;
+        width: 70px;
+        margin-left: -1px;
+    }
+    .divTick2{
+        /*Switch background-color to grey or green as needed*/
+        background-color:gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50%;
+        color: white;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+    }
+    .orderStatusImgText2{
+        font-size: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .statusImg2{
+        height: 15px;
+        width: 15px;
+        border-radius: 7.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .statusImg2 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+    }
+    .statusText2{
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Status 3 */
+       .orderStatus3{
+        /* Nothing needed */
+    }
+    .orderTicking3{
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+    .divProcessing3{
+        /*Switch background-color to grey or green as needed*/
+        background-color: gray;
+        height: 6px;
+        width: 70px;
+        margin-left: -1px;
+    }
+    .divTick3{
+        /*Switch background-color to grey or green as needed*/
+        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50%;
+        color: white;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+    }
+    .orderStatusImgText3{
+        font-size: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin-top: 15px;
+        font-weight: bold;
+    }
+    .statusImg3{
+        height: 15px;
+        width: 15px;
+        border-radius: 7.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .statusImg3 img{
+        height: 100%;
+        width: 100%;
+        border-radius: 100%;
+    }
+    .statusText3{
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Delivered  */
+    .letAlonedDelivered{
+        /* nothing needed */
+    }
+    .statusDelivered{
+        background-color: gray;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 80%;
+        color: white;
+    }
+    .deliveredImgText{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        font-size: 50%;
+        margin-top: 15px;
+        font-weight: bold;
+        font-weight: bold;
+    }
+    .deliveredImg{
+        width: 15px;
+        height: 15px;
+        border-radius: 7.5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .deliveredImg img{
+        width: 100%;
+        height: 100%;
+        border-radius: 100%;
+    }
+    .deliveredText{
+        margin-top: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+        background-color: blue;
+        position: fixed;
+        top: 95%;
+        right: 5%;
+        bottom: 10%;
+    }
+    .exit{
+    background-color: black;
+    color: grey;
+    font-size: 80%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+  }
+  .exit:hover{
+    background-color: red;
+  }
