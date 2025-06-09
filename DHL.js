@@ -28,6 +28,9 @@ function passwordLogin() {
        wrong.innerHTML = 
        '<p class="wrongpassword">Wrong Password, please contact Admin.</p>'; 
     }
+   setTimeout(() => {
+        wrong.innerText = '';
+      }, 2000)
 
    password.value = '';
 
@@ -40,7 +43,6 @@ function passwordLogin() {
    //    wrong.innerHTML = 
    //    '<p class="wrongpassword">Wrong Password, please contact Admin.</p>';
    // } 
-   
 
   }
 
